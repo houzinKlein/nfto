@@ -1,0 +1,21 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "environmentVariables": {},
+      "distributionName": ""
+    },
+    "readinline": {
+      "commandName": "Project",
+      "commandLineArgs": " --read-inline '{\"Type\": \"Mint\", \"TokenId\": \"0x3000000000000000000000000000000000000000\",\"Address\": \"0x1000000000000000000000000000000000000000\"}'"
+    },
+    "readinlineMany": {
+      "commandName": "Project",
+      "commandLineArgs": "--read-inline '[{\"Type\": \"Mint\", \"TokenId\": \"0x...\", \"Address\": \"0x...\"}, {\"Type\": \"Burn\",\"TokenId\": \"0x...\"}]'"
+    },
+    "readfile": {
+      "commandName": "Project",
+      "commandLineArgs": "--read-file C:\\Users\\KLein\\source\\repos\\nfto\\Nfto.Tests\\transactions.json"
+    }
+  }
+}
