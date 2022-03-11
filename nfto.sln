@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nfto", "nfto\Nfto.csproj", "{24312C9F-9F13-4BF9-9457-4CFFD745136C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nfto", "nfto\Nfto.csproj", "{24312C9F-9F13-4BF9-9457-4CFFD745136C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nfto.Tests", "Nfto.Tests\Nfto.Tests.csproj", "{BEF3AAA3-6FAC-4177-AAFE-524DF2B39127}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nfto.Tests", "Nfto.Tests\Nfto.Tests.csproj", "{BEF3AAA3-6FAC-4177-AAFE-524DF2B39127}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nfto.DAL", "Nfto.DAL\Nfto.DAL.csproj", "{66626BF9-BDA1-4CD3-89E2-BEB5FEAF972E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nfto.DAL", "Nfto.DAL\Nfto.DAL.csproj", "{66626BF9-BDA1-4CD3-89E2-BEB5FEAF972E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

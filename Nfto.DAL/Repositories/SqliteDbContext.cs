@@ -2,6 +2,7 @@
 using SQLite;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -106,7 +107,7 @@ namespace Nfto.DAL.Repositories
                     Console.WriteLine("Item already exists");
                     return false;
                 }
-                Console.WriteLine($"Saving {model}");
+                Debug.WriteLine($"Saving {model}");
                 int nbRows = await db.InsertAsync(model);
 
                 return (nbRows == 1);

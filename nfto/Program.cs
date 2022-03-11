@@ -10,6 +10,8 @@ namespace Nfto
     internal class Program
     {
 
+        static string _databasePath = Path.Combine(Directory.GetCurrentDirectory(), "Nfto_data.db");
+
         static async Task Main(string[] args)
         {
 
@@ -41,9 +43,8 @@ namespace Nfto
                 parameters.Append(args[k]);
             }
 
-            string databasePath= Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "MyData.db");
-            
-            INftoService service = new NftoService(databasePath);
+
+            INftoService service = new NftoService(_databasePath);
 
 
             switch (commandType)

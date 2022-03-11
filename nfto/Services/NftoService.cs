@@ -315,7 +315,7 @@ namespace Nfto.Services
                 }
                 if (success) nbProcessed++;
 
-                Console.WriteLine($"Processing {message} Success={success}");
+                Debug.WriteLine($"Processing {message} Success={success}");
 
             }
 
