@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 
 namespace Nfto.DAL.Repositories
 {
+ 
+    /// <summary>
+    /// Persistence of Data through SQLite.
+    /// </summary>
     public class SqliteDbContext : IDbContext
     {
 

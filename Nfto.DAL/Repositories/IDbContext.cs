@@ -4,6 +4,10 @@ using System.Threading.Tasks;
 
 namespace Nfto.DAL.Repositories
 {
+ 
+    /// <summary>
+    /// Interface for data persistence
+    /// </summary>
     public interface IDbContext
     {
         Task<bool> DeleteTokenAsync(string tokenId);

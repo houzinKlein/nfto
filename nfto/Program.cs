@@ -86,33 +86,33 @@ namespace Nfto
         private static void WrongParametersDisplay()
         {
             Console.WriteLine("Error wrong parameters. ");
-            Console.WriteLine("Type Nfto --help to get help");
+            Console.WriteLine("Type 'program --help' to get help");
         }
 
         private static void DisplayHelp()
         {
-            Console.WriteLine("HELP");
+            Console.WriteLine("****************************** HELP");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("Read Inline(--read-inline <json>)");
             Console.WriteLine("Reads either a single json element, or an array of json elements representing transactions as an argument.");
-            Console.WriteLine("Nfto --read-inline '{\"Type\": \"Burn\", \"TokenId\": \"0x...\"}'");
-            Console.WriteLine("Nfto --read-inline '[{\"Type\": \"Mint\", \"TokenId\": \"0x...\", \"Address\": \"0x...\"}, {\"Type\": \"Burn\", \"TokenId\": \"0x...\"}]'");
+            Console.WriteLine("program --read-inline '{\"Type\": \"Burn\", \"TokenId\": \"0x...\"}'");
+            Console.WriteLine("program --read-inline '[{\"Type\": \"Mint\", \"TokenId\": \"0x...\", \"Address\": \"0x...\"}, {\"Type\": \"Burn\", \"TokenId\": \"0x...\"}]'");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("Read File (--read-file <file>)");
             Console.WriteLine("Reads either a single json element, or an array of json elements representing transactions from the file in the specified location.");
-            Console.WriteLine("Nfto --read-file transactions.json");
+            Console.WriteLine("program --read-file transactions.json");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("NFT Ownership (--nft <id>)");
             Console.WriteLine("Returns ownership information for the nft with the given id");
-            Console.WriteLine("Nfto --nft 0x...");
+            Console.WriteLine("program --nft 0x...");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("Wallet Ownership (--wallet <address>)");
             Console.WriteLine("Lists all NFTs currently owned by the wallet of the given address");
-            Console.WriteLine("Nfto --wallet 0x...");
+            Console.WriteLine("program --wallet 0x...");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("Reset (--reset)");

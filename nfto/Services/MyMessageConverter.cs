@@ -4,7 +4,7 @@ using Nfto.Models;
 
 namespace Nfto.Services
 {
-    class MyMessageConverter : JsonConverter
+    internal class MyMessageConverter : JsonConverter
     {
         public override bool CanConvert(Type objectType)
         {
